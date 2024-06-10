@@ -1,0 +1,2 @@
+node.name: logstash-veeam-syslog
+api.environment: dev
