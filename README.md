@@ -2,7 +2,7 @@
 
 ## Version Information
 ~~~~
-Version: 0.2 (June 9th 2024)
+Version: 0.3 (July 2 2024)
 Requires: Veeam Backup & Replication v12.1
 Author: Stephan "Steve" Herzig
 ~~~~
@@ -151,6 +151,14 @@ This setup has been tested with:
 - Ubuntu 22.04 LTS
 - Logstash 8.14.0
 - Docker installed via `snap`
+- Veeam Backup & Replication 12.1.2
+
+## Version History
+- 0.3
+  - Logstash configuration file update
+- 0.2
+  - Initial version
+
 
 
 **Please note this config is unofficial and is not created nor supported by Veeam Software.**
