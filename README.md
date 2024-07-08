@@ -156,9 +156,9 @@ This setup has been tested with:
 ## Version History
 - 0.3
   - Logstash configuration file update
+  - Dockerfile points to v8.14.2
 - 0.2
   - Initial version
-
 
 
 **Please note this config is unofficial and is not created nor supported by Veeam Software.**
