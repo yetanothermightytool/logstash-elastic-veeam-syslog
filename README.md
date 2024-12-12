@@ -2,8 +2,7 @@
 
 ## Version Information
 ~~~~
-Version: 0.3 (July 2 2024)
-Requires: Veeam Backup & Replication v12.1
+Version: 0.4 (December 12 2024)
 Author: Stephan "Steve" Herzig
 ~~~~
 
@@ -45,9 +44,11 @@ output {
 }
 ```
 
-### 4. Adjust the Pipeline Configuration (Optional)
+### 4. Select & Adjust the Pipeline Configuration
 
 The default pipeline configuration file configures the container to listen on TCP port 5514. If you need to change this port, edit the pipeline configuration file before building the Docker image.
+
+> **Note:** There is now a configuration file that extracts Veeam ONE Syslog messages in addition to the Veeam Backup & Replication Syslog messages (logstash-veeam-with-vone-syslog.conf).  Before building the container, ensure that only the configuration file you want to use is in the pipeline folder.
 
 Open the pipeline configuration file:
 
@@ -151,9 +152,12 @@ This setup has been tested with:
 - Ubuntu 22.04 LTS
 - Logstash 8.14.0
 - Docker installed via `snap`
-- Veeam Backup & Replication 12.1.2
+- Veeam Backup & Replication 12.1.2, 12.2, 12.3
+- Veeam ONE 12.3
 
 ## Version History
+- 0.4
+  - Veeam ONE Syslog messages can be extracted
 - 0.3
   - Logstash configuration file update
   - Dockerfile points to v8.14.2
