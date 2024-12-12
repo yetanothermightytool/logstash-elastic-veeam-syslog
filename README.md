@@ -157,7 +157,7 @@ This setup has been tested with:
 
 ## Version History
 - 0.4
-  - Veeam ONE Syslog messages can be extracted
+  - Veeam ONE Syslog messages can be extracted (Currently not all messages are extracted, only configured Alerts sending Syslog event data)
 - 0.3
   - Logstash configuration file update
   - Dockerfile points to v8.14.2
