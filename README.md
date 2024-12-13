@@ -150,7 +150,7 @@ You should see output indicating that the service is active and running.
 This setup has been tested with:
 
 - Ubuntu 22.04 LTS
-- Logstash 8.14.0
+- Logstash 8.14.0 / 8.16.1
 - Docker installed via `snap`
 - Veeam Backup & Replication 12.1.2, 12.2, 12.3
 - Veeam ONE 12.3
