@@ -15,7 +15,7 @@ This guide will walk you through the steps to download, build, run, and make a p
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yetanothermightytool/logstash-veeam-syslog.git
+git clone https://github.com/yetanothermightytool/logstash-elastic-veeam-syslog.git
 ```
 
 ### 2. Change into the Directory
@@ -23,7 +23,7 @@ git clone https://github.com/yetanothermightytool/logstash-veeam-syslog.git
 Navigate into the project directory:
 
 ```bash
-cd logstash-veeam-syslog
+cd logstash-elastic-veeam-syslog
 ```
 
 ### 3. Adjust the Password for the `elastic` User
@@ -158,6 +158,7 @@ This setup has been tested with:
 ## Version History
 - 0.4
   - Veeam ONE Syslog messages can be extracted (Currently not all messages are extracted, only configured Alerts sending Syslog event data)
+  - Rename Repository
 - 0.3
   - Logstash configuration file update
   - Dockerfile points to v8.14.2
